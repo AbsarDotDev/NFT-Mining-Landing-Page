@@ -408,6 +408,20 @@ ol {
 .hero-text ul li:last-child{
 	margin-right: 0;
 }
+.shuff ul{
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.shuff ul li{
+	margin-right: 25px;
+}
+.shuff ul li:last-child{
+	margin-right: 0;
+}
 .pt_220{
 	padding-bottom: 60px;
 	padding-top: 60px;
@@ -493,6 +507,8 @@ ol {
 .p_btn{
 	padding: 12px 60px;
 	font-style: normal;
+	text-align: center;
+justify-content: center;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
@@ -519,7 +535,6 @@ ol {
 	-o-transition: 0.4s;
 	transition: 0.4s;
 	color: #fff;
-	
 	border: none;
 }
 .p_btn_bg:hover{
@@ -655,7 +670,6 @@ ol {
 }
 
 .process-step .process-icon {
-	height: 55px;
 	margin-bottom: 30px;
 	padding-top: 5px;
 }
@@ -705,6 +719,46 @@ ol {
 
 .process-step p {
 	margin-bottom: 0;
+}
+/*---------------------
+	Process Section With Arrow
+-----------------------*/
+
+.process:last-child .process-step-with-arrow:after {
+	display: none;
+}
+
+.process-step-with-arrow {
+	position: relative;
+	text-align: center;
+	padding: 35px;
+	margin-top: 30px;
+	-webkit-box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+	        box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+}
+
+.process-step-with-arrow .process-icon {
+	height: 55px;
+	margin-bottom: 30px;
+	padding-top: 5px;
+}
+
+.process-step-with-arrow h4 {
+	margin-bottom: 15px;
+}
+
+.process-step-with-arrow p {
+	margin-bottom: 0;
+}
+
+.process-step-with-arrow:after {
+	position: absolute;
+	content: '';
+	width: 275px;
+	height: 56px;
+	top: -40px;
+	right: -40%;
+	background: url("../img/process-line.png") no-repeat scroll 0 0/cover;
 }
 .icon {
 	width: 110px;

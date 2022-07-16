@@ -273,13 +273,13 @@
         line-height: 23px;
     }
     .p_btn {
+        margin-top: 20px;
         padding: 12px 60px;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
         border-radius: 56px;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
