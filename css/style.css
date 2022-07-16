@@ -2110,3 +2110,33 @@ ol {
 .discover_item {
 	flex: 0 0 47%;
 }
+.all_work{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-evenly;
+
+}
+.work_single{
+	border: 3px solid #285474 ;
+	padding:50px;
+	border-radius: 50px;
+	text-align: center;
+}
+.work_single h4{
+	font-size: 20px;
+	margin-bottom: 20px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.work_single p{
+	max-width: 310px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}

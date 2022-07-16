@@ -314,7 +314,7 @@
         content: "";
         width: 70px;
         height: 70px;
-        border: 1px dashed #4843B7;
+        border: 1px dashed #285474 ;
         border-radius: 50%;
         top: -4px;
         left: -37px;
@@ -323,7 +323,7 @@
         margin-bottom: 50px;
     }
     .work_single {
-        border: 1px solid rgba(52, 97, 255, 1);
+        border: 1px solid #285474 ;
         padding: 36px 12px;
         border-radius: 50px;
         text-align: center;
